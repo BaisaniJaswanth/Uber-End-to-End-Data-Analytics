@@ -19,48 +19,9 @@ The goal is to transform raw Excel data into structured analytics tables and unc
 ✅ Automations and reproducibility through virtual environments
 
 🧱 Project Architecture
-text
-Copy
-Edit
-          +--------------------+
-          | Uber Dataset (.xlsx)|
-          +--------+-----------+
-                   |
-               [Extract]
-                   v
-     +-----------------------------+
-     | Mage ETL (Python/Transform)|
-     +-----------------------------+
-                   |
-               [Transform]
-                   v
-     +-----------------------------+
-     | Dimensional Modeling       |
-     | Fact + Dimension Tables    |
-     +-----------------------------+
-                   |
-               [Load]
-                   v
-     +-----------------------------+
-     | BigQuery (Fact + Dim Tables)|
-     +-----------------------------+
-                   |
-           [Analytics Join]
-                   v
-     +-----------------------------+
-     | tbl_analytics (Wide Table) |
-     +-----------------------------+
-                   |
-               [Visualize]
-                   v
-     +-----------------------------+
-     | Power BI Dashboard          |
-     +-----------------------------+
-                   v
-     +-----------------------------+
-     | Python Analysis             |
-     +-----------------------------+
-     
+
+Uber Dataset (.xlsx) ->  [Extract] -> Mage ETL (Python/Transform) -> [Transform] -> Dimensional Modeling Fact + Dimension Tables -> [Load] -> BigQuery (Fact + Dim Tables) ->  [Analytics Join] ->  tbl_analytics (Wide Table) -> [Visualize] -> Power BI Dashboard -> Python Analysis      
+              
 🛠 Technologies Used
 Component	    Tool
 ETL Engine	    Mage
