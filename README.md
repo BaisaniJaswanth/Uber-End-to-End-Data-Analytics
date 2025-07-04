@@ -3,7 +3,7 @@
 An end-to-end data engineering project that performs ETL pipeline on Uber trip data Built on Google Cloud Platform (GCP) using Mage for orchestration, Python for transformation, BigQuery for warehousing, and Power BI for visualization.
 The goal is to transform raw Excel data into structured analytics tables and uncover meaningful insights related to trip trends, distances, categories, and user behavior.
 
-https://www.bing.com/ck/a?!&&p=bc54902b61b1062f68e6612b3e5df0c4ab2f2b3a681d65145d02b2fb82e4245cJmltdHM9MTc1MTU4NzIwMA&ptn=3&ver=2&hsh=4&fclid=3dfe5ff1-0a54-6734-397549ff0b3666af&u=a1L2ltYWdlcy9zZWFyY2g_cT11YmVyK2ltYWdlJmlkPUVEQ0U4RENFQzVDNTgzRkVFQ0U3NEQzM0U3MEMxRDVBQzNFODI5MTYmRk9STT1JQUNGSVI&ntb=1
+![OIP](https://github.com/user-attachments/assets/05a0698e-26c6-4e23-bd77-999f9857d9c3)
 
 📌 Features
 ✅ ETL Pipeline built with Mage (Python-based)
