@@ -3,6 +3,8 @@
 An end-to-end data engineering project that performs ETL pipeline on Uber trip data Built on Google Cloud Platform (GCP) using Mage for orchestration, Python for transformation, BigQuery for warehousing, and Power BI for visualization.
 The goal is to transform raw Excel data into structured analytics tables and uncover meaningful insights related to trip trends, distances, categories, and user behavior.
 
+https://www.bing.com/ck/a?!&&p=bc54902b61b1062f68e6612b3e5df0c4ab2f2b3a681d65145d02b2fb82e4245cJmltdHM9MTc1MTU4NzIwMA&ptn=3&ver=2&hsh=4&fclid=3dfe5ff1-0a54-6734-397549ff0b3666af&u=a1L2ltYWdlcy9zZWFyY2g_cT11YmVyK2ltYWdlJmlkPUVEQ0U4RENFQzVDNTgzRkVFQ0U3NEQzM0U3MEMxRDVBQzNFODI5MTYmRk9STT1JQUNGSVI&ntb=1
+
 📌 Features
 ✅ ETL Pipeline built with Mage (Python-based)
 
@@ -90,6 +92,8 @@ Connect to BigQuery > tbl_analytics
 
 Use filters like category, day, location, purpose
 
+![Screenshot 2025-07-04 205137](https://github.com/user-attachments/assets/92f113e8-97de-4d41-a4d9-e3bf72202da8)
+
 ✅ Sample Output Tables
 Table Name	Description
 fact_table	Main transactional data
@@ -109,17 +113,14 @@ BigQuery Admin
 Storage Viewer (if GCS used)
 
 📁 File Structure
-pgsql
-Copy
-Edit
-├── UberDatasetCleaned.xlsx
-├── Uber Data Pipeline.ipynb
-├── Uber Analysis.ipynb
-├── analytics_query.sql
-├── commands.txt
-├── tough-access-*.json (service account)
-├── mage-env/
-└── uber_data_project/
+-- UberDatasetCleaned.xlsx
+-- Uber Data Pipeline.ipynb
+-- Uber Analysis.ipynb
+-- analytics_query.sql
+-- commands.txt
+-- tough-access-*.json (service account)
+-- mage-env/
+-- uber_data_project/
 
 Install missing dependencies like openpyxl, db-dtypes when errors arise
 
