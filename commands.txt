@@ -1,0 +1,49 @@
+# Install Python and pip 
+
+sudo apt-get update
+
+sudo apt-get install python3-distutils
+
+sudo apt-get install python3-apt
+sudo apt-get install wget
+
+check python version
+
+python3
+
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python3 get-pip.py
+
+sudo apt update
+sudo apt install python3-pandas -y
+
+After installation, check the version:
+
+python3 -c "import pandas as pd; print(pd.__version__)"
+
+To install mage-ai
+1. Install virtualenv if not already
+
+sudo apt install python3-venv -y
+
+2. Create and activate virtual environment
+
+python3 -m venv mage-env
+source mage-env/bin/activate
+
+3. Install mage-ai
+
+pip install mage-ai
+
+pip install openpyxl
+
+pip install dbt-core dbt-postgres
+
+pip install google-cloud-bigquery
+
+pip install google-cloud-bigquery-storage
+
+pip install pandas-gbq --upgrade
+
+
+mage start project_name
